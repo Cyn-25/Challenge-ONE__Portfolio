@@ -1,3 +1,11 @@
+.proyectos__titulo h1{
+    font-size: 50px;
+    text-shadow: 0 0 5px rgb(134, 112, 255), 0 0 10px rgb(149, 130, 255);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+}
+
 .proyecto-portafolio__detalles{
     padding: 30px 80px;
     display: flex;
@@ -15,5 +23,9 @@
 @media screen and (max-width: 480px) {
     .proyecto-portafolio__detalles{
         padding: 30px 0;
+    }
+    
+    .proyectos__titulo h1{
+        font-size: 40px;
     }
 }
