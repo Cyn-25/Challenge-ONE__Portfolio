@@ -1,0 +1,16 @@
+.contacto__contenido{
+    margin: 0 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacto__contenido{
+        margin: 0 -150px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contacto__contenido{
+        margin: 0px -105px 10px;
+        width: 100%;
+    }
+}

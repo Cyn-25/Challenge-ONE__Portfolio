@@ -1,0 +1,22 @@
+.registry-card{
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #26164e, 0 0 25px #26164e;
+  width: 50%;
+  padding: 1.75rem;
+  box-sizing: border-box;
+  margin: 2% auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .registry-card{
+    width: 75%; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .registry-card{
+    width: 75%; 
+  }
+}
+  

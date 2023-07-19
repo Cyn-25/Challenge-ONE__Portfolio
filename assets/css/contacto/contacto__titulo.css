@@ -1,0 +1,19 @@
+.contacto__titulo{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacto__titulo{
+        font-size: 22px;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contacto__titulo{
+        font-size: 22px;
+    }
+}

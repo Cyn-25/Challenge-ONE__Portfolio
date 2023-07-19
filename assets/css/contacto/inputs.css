@@ -1,0 +1,48 @@
+.input-container--invalid {
+  margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+  border: 1px solid var(--warning-color);
+  border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+  color: var(--warning-color);
+}
+
+.input-message-error {
+  display: none;
+}
+
+.input-container--invalid .input-message-error {
+  color: var(--warning-color);
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 12px;
+  text-shadow: 0 0 7px rgb(255, 198, 112);
+}
+
+.textarea-container--invalid {
+  margin-bottom: 0.5rem;
+}
+
+.textarea-container--invalid .textarea {
+  border: 1px solid var(--warning-color);
+}
+
+.textarea-container--invalid .textarea-label {
+  color: var(--warning-color);
+}
+
+.textarea-mensagem-erro {
+  display: none;
+}
+
+.textarea-container--invalid .textarea-mensagem-erro {
+  display: block;
+  color: var(--warning-color);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}

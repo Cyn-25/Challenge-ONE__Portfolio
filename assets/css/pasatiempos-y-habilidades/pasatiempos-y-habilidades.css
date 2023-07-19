@@ -1,0 +1,9 @@
+.pasatiempos-y-habilidades{
+    font-family: var(--raleway);
+    margin-top: 3%;
+}
+
+.pasatiempos-y-habilidades a:hover{
+    color: var(--fuente-brillante);
+
+}
